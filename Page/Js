@@ -1,0 +1,9 @@
+<h2>JavaScript Tutorial</h2>
+<p>JS makes website dynamic.</p>
+
+<textarea id="jsCode">
+<button onclick="alert('Hello JS')">Click me</button>
+</textarea>
+
+<button onclick="runCode('jsCode','jsOut')">Try It</button>
+<iframe id="jsOut"></iframe>
