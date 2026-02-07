@@ -1,0 +1,12 @@
+<h2>CSS Tutorial</h2>
+<p>CSS styles the webpage.</p>
+
+<textarea id="cssCode">
+<style>
+h1{color:red;}
+</style>
+<h1>Hello CSS</h1>
+</textarea>
+
+<button onclick="runCode('cssCode','cssOut')">Try It</button>
+<iframe id="cssOut"></iframe>
