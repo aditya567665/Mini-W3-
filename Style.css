@@ -1,0 +1,46 @@
+body{
+  margin:0;
+  font-family:Arial;
+}
+
+.container{
+  display:flex;
+  height:100vh;
+}
+
+.sidebar{
+  width:220px;
+  background:#04AA6D;
+  padding:15px;
+}
+
+.sidebar h2{
+  color:white;
+}
+
+.sidebar button{
+  width:100%;
+  padding:10px;
+  margin:5px 0;
+  border:none;
+  background:white;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.main{
+  flex:1;
+  padding:20px;
+  overflow:auto;
+}
+
+textarea{
+  width:100%;
+  height:120px;
+}
+
+iframe{
+  width:100%;
+  height:150px;
+  border:1px solid #ccc;
+}
